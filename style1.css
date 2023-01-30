@@ -1,0 +1,45 @@
+.portada2 {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 350%;
+    position: absolute;
+    top: 5px;
+}
+
+.titulo2 {
+    text-align: center;
+    border-style: double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+}
+
+.logo1 {
+    position: absolute;
+    left: 1500px;
+    bottom: 350px;
+}
+
+.button-group {
+    position: absolute;
+    top: 500px;
+}
+
+.button {
+    display: block;
+    padding: 20px;
+}
+
+.texto-informativo {
+    text-align: center;
+}
+
+#pie-foto {
+    display: block;
+    margin: auto;
+}
