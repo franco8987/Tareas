@@ -5,11 +5,6 @@
     padding-top: 25px;
 }
 
-h1{
-    font-size: 330%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .button {
     background-color: rgb(255, 0, 0);
     color: white;
@@ -21,7 +16,11 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.button:hover{
+.button-group{
+    padding: 15px 0px;
+}
+
+.button:hover {
     background-color: blueviolet;
 }
 
@@ -29,13 +28,13 @@ h1{
     background-color: rgb(0, 4, 255);
 }
 
-.titulo2{
+.titulo2 {
     font-size: xx-large;
     color: rgb(58, 57, 57);
     text-transform: uppercase;
 }
 
-.logo1{
+.logo1 {
     float: right;
 }
 
@@ -45,6 +44,46 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
-    background-color: rgb(178, 185, 183);
+.rules-title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.rules-title h2 {
+    font-weight: normal;
+}
+
+.sportmanship {
+    text-indent: 40px;
+    padding-bottom: 10px;
+}
+
+.regulations h3 {
+    text-indent: 40px;
+}
+
+.all-play {
+    text-indent: 40px;
+}
+
+.game-info-title p{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.game-info-title h2{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.title-gameinfo{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    padding: 20px;
+    border-spacing: 55px 15px;
+    text-align: justify;
 }
