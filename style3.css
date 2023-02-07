@@ -1,6 +1,6 @@
 .portada2 {
     width: 100%;
-    height: auto;
+    height: 100%;
     max-height: 400px;
     padding-top: 25px;
 }
@@ -16,8 +16,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.button-group{
+.button-group {
     padding: 15px 0px;
+    display: flex;
 }
 
 .button:hover {
@@ -67,23 +68,61 @@
     text-indent: 40px;
 }
 
-.game-info-title p{
+.game-info-title p {
     text-decoration: underline;
     font-style: italic;
-}
-
-.game-info-title h2{
-    font-style: italic;
-    font-weight: normal;
-}
-
-.title-gameinfo{
     text-align: center;
 }
 
-table{
+.game-info-title h2 {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+.title-gameinfo {
+    text-align: center;
+}
+
+table {
     margin: auto;
     padding: 20px;
     border-spacing: 55px 15px;
     text-align: justify;
+}
+
+.mapas {
+    padding: 25px;
+}
+
+.rules-title2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.rules-title2 h2 {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    .logo1 {
+        float: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo1 {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .logo1 {
+        float: right;
+    }
 }
